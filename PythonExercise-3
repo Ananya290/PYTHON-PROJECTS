@@ -1,0 +1,10 @@
+import re
+from collections import Counter
+txt = "The quick brown fox jumps over the lazy dog"
+ 
+#Count number of vowel words in the Sentences:
+ 
+x = re.findall("[aeiou]", txt)
+word_count= Counter(x)
+print(x)
+print(word_count)
